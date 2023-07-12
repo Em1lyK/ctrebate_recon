@@ -157,85 +157,87 @@
 "156","Cheshire East UA","E06000049",-149,NA
 "157","Sandwell Metropolitan Borough Council","E08000028",-148,NA
 "158","Cheshire West and Chester UA","E06000050",-27,NA
-"159","Barrow-in-Furness Borough Council","E07000027",-20,NA
-"160","Brent London Borough","E09000005",-999,NA
-"161","Waltham Forest London Borough","E09000031",-259,NA
-"162","Norwich City Council","E07000148",-114,NA
-"163","King's Lynn and West Norfolk Borough Council","E07000146",-79,NA
-"164","South Somerset District Council","E07000189",-13,NA
-"165","Wakefield Metropolitan District Council","E08000036",-37,NA
-"166","Mendip District Council","E07000187",-15,NA
-"167","South Hams District Council","E07000044",-40,NA
-"168","Burnley Borough Council","E07000117",-55,NA
-"169","Harrow London Borough","E09000015",-92,NA
-"170","Teignbridge District Council","E07000045",-41,NA
-"171","Southampton City Council","E06000045",-16,NA
-"172","Newark and Sherwood District Council","E07000175",-7,NA
-"173","Hambleton District Council","E07000164",-13,NA
-"174","Elmbridge Borough Council","E07000207",-46,NA
-"175","Colchester Borough Council","E07000071",-80,NA
-"176","Chichester District Council","E07000225",-36,NA
-"177","West Berkshire Council","E06000037",-20,NA
-"178","Tameside Metropolitan Borough Council","E08000008",-47,NA
-"179","Portsmouth City Council","E06000044",22,"Properties linked to 22 properties had previously been determined as ineligible but on further review remained eligible. These cases were paid before 30 November 22 and were not subject to recovery and then a second payment."
-"180","Westminster City Council","E09000033",-401,NA
-"181","Swale Borough Council","E07000113",-176,NA
-"182","Lewes District Council","E07000063",-1836,NA
-"183","Middlesbrough Council","E06000002",-291,NA
-"184","Doncaster Metropolitan Borough Council","E08000017",-479,NA
-"185","North East Derbyshire District Council","E07000038",-25,NA
-"186","Birmingham City Council","E08000025",-372,NA
-"187","Hinckley and Bosworth Borough Council","E07000132",-28,NA
-"188","Wyre Borough Council","E07000128",-279,NA
-"189","Stoke-on-Trent City Council","E06000021",-267,NA
-"190","New Forest District Council","E07000091",-3,NA
-"191","East Hertfordshire District Council","E07000242",-44,NA
-"192","Fareham Borough Council","E07000087",-3,NA
-"193","Pendle Borough Council","E07000122",-42,NA
-"194","Fylde Borough Council","E07000119",-53,NA
-"195","Harborough District Council","E07000131",-742,NA
-"196","Derby City Council","E06000015",-64,NA
-"197","Wirral Borough Council","E08000015",-154,NA
-"198","Breckland District Council","E07000143",-29,NA
-"199","Newcastle-under-Lyme Borough Council","E07000195",439,"Correction to number of payments made at 30 November, incorrectly reported in December"
-"200","Blackpool Borough Council","E06000009",-122,NA
-"201","Bournemouth, Christchurch and Poole (UA)","E06000058",-197,NA
-"202","Manchester City Council","E08000003",-186,NA
-"203","Wiltshire County UA","E06000054",-32,NA
-"204","West Lindsey District Council","E07000142",-77,NA
-"205","Herefordshire Council","E06000019",-67,NA
-"206","Wealden District Council","E07000065",-72,NA
-"207","East Hampshire District Council","E07000085",-29,NA
-"208","Brighton and Hove City Council","E06000043",-394,NA
-"209","Basingstoke and Deane Borough Council","E07000084",-7,NA
-"210","Leeds City Council","E08000035",-174,NA
-"211","Harlow District Council","E07000073",-11,NA
-"212","Stevenage Borough Council","E07000243",-40,NA
-"213","Peterborough City Council","E06000031",-32,NA
-"214","Milton Keynes Council","E06000042",-192,NA
-"215","Sunderland City Council","E08000024",-65,NA
-"216","Hertsmere Borough Council","E07000098",-4,NA
-"217","St Helens Council","E08000013",-29,NA
-"218","Newham London Borough","E09000025",-214,NA
-"219","Tunbridge Wells Borough Council","E07000116",-27,NA
-"220","Uttlesford District Council","E07000077",-25,NA
-"221","Barnsley Metropolitan Borough Council","E08000016",-162,NA
-"222","Coventry City Council","E08000026",-297,NA
-"223","Basildon Borough Council","E07000066",-55,NA
-"224","Ribble Valley Borough Council","E07000124",-2,NA
-"225","Buckinghamshire UA","E06000060",66,"Reconciliation exercise now including post office voucher payments that was missed in December submission"
-"226","Durham County UA","E06000047",-458,NA
-"227","East Suffolk Council","E07000244",-57,NA
-"228","Bromsgrove District Council","E07000234",-58,NA
-"229","West Oxfordshire District Council","E07000181",-11,NA
-"230","Rother District Council","E07000064",-9,NA
-"231","Reading Borough Council","E06000038",-95,NA
-"232","Bolton Metropolitan Borough Council","E08000001",-54,NA
-"233","City of York Council","E06000014",-69,NA
-"234","Tendring District Council","E07000076",-70,NA
-"235","Ashford Borough Council","E07000105",-89,NA
-"236","Hull City Council","E06000010",-30,NA
-"237","North Norfolk District Council","E07000147",-40,NA
-"238","Great Yarmouth Borough Council","E07000145",-81,NA
-"239","Epsom and Ewell Borough Council","E07000208",-3,NA
-"240","Woking Borough Council","E07000217",-22,NA
+"159","Melton Borough Council","E07000133",-4,NA
+"160","Barrow-in-Furness Borough Council","E07000027",-20,NA
+"161","Brent London Borough","E09000005",-999,NA
+"162","Waltham Forest London Borough","E09000031",-259,NA
+"163","Norwich City Council","E07000148",-114,NA
+"164","King's Lynn and West Norfolk Borough Council","E07000146",-79,NA
+"165","South Somerset District Council","E07000189",-13,NA
+"166","Wakefield Metropolitan District Council","E08000036",-37,NA
+"167","Mendip District Council","E07000187",-15,NA
+"168","South Hams District Council","E07000044",-40,NA
+"169","Burnley Borough Council","E07000117",-55,NA
+"170","Harrow London Borough","E09000015",-92,NA
+"171","Teignbridge District Council","E07000045",-41,NA
+"172","Southampton City Council","E06000045",-16,NA
+"173","Newark and Sherwood District Council","E07000175",-7,NA
+"174","Hambleton District Council","E07000164",-13,NA
+"175","Elmbridge Borough Council","E07000207",-46,NA
+"176","Colchester Borough Council","E07000071",-80,NA
+"177","Chichester District Council","E07000225",-36,NA
+"178","West Berkshire Council","E06000037",-20,NA
+"179","Tameside Metropolitan Borough Council","E08000008",-47,NA
+"180","Portsmouth City Council","E06000044",22,"Properties linked to 22 properties had previously been determined as ineligible but on further review remained eligible. These cases were paid before 30 November 22 and were not subject to recovery and then a second payment."
+"181","Westminster City Council","E09000033",-401,NA
+"182","Swale Borough Council","E07000113",-176,NA
+"183","Lewes District Council","E07000063",-1836,NA
+"184","Middlesbrough Council","E06000002",-291,NA
+"185","Doncaster Metropolitan Borough Council","E08000017",-479,NA
+"186","North East Derbyshire District Council","E07000038",-25,NA
+"187","Birmingham City Council","E08000025",-372,NA
+"188","Hinckley and Bosworth Borough Council","E07000132",-28,NA
+"189","Wyre Borough Council","E07000128",-279,NA
+"190","Stoke-on-Trent City Council","E06000021",-267,NA
+"191","New Forest District Council","E07000091",-3,NA
+"192","East Hertfordshire District Council","E07000242",-44,NA
+"193","Fareham Borough Council","E07000087",-3,NA
+"194","Pendle Borough Council","E07000122",-42,NA
+"195","Fylde Borough Council","E07000119",-53,NA
+"196","Harborough District Council","E07000131",-742,NA
+"197","Derby City Council","E06000015",-64,NA
+"198","Wirral Borough Council","E08000015",-154,NA
+"199","Breckland District Council","E07000143",-29,NA
+"200","Newcastle-under-Lyme Borough Council","E07000195",439,"Correction to number of payments made at 30 November, incorrectly reported in December"
+"201","Blackpool Borough Council","E06000009",-122,NA
+"202","Bournemouth, Christchurch and Poole (UA)","E06000058",-197,NA
+"203","Manchester City Council","E08000003",-186,NA
+"204","Wiltshire County UA","E06000054",-32,NA
+"205","West Lindsey District Council","E07000142",-77,NA
+"206","Herefordshire Council","E06000019",-67,NA
+"207","Wealden District Council","E07000065",-72,NA
+"208","East Hampshire District Council","E07000085",-29,NA
+"209","Brighton and Hove City Council","E06000043",-394,NA
+"210","Basingstoke and Deane Borough Council","E07000084",-7,NA
+"211","Leeds City Council","E08000035",-174,NA
+"212","Harlow District Council","E07000073",-11,NA
+"213","Stevenage Borough Council","E07000243",-40,NA
+"214","Peterborough City Council","E06000031",-32,NA
+"215","Milton Keynes Council","E06000042",-192,NA
+"216","Sunderland City Council","E08000024",-65,NA
+"217","Hertsmere Borough Council","E07000098",-4,NA
+"218","St Helens Council","E08000013",-29,NA
+"219","Newham London Borough","E09000025",-214,NA
+"220","Tunbridge Wells Borough Council","E07000116",-27,NA
+"221","North West Leicestershire District Council","E07000134",-26,NA
+"222","Uttlesford District Council","E07000077",-25,NA
+"223","Barnsley Metropolitan Borough Council","E08000016",-162,NA
+"224","Coventry City Council","E08000026",-297,NA
+"225","Basildon Borough Council","E07000066",-55,NA
+"226","Ribble Valley Borough Council","E07000124",-2,NA
+"227","Buckinghamshire UA","E06000060",66,"Reconciliation exercise now including post office voucher payments that was missed in December submission"
+"228","Durham County UA","E06000047",-458,NA
+"229","East Suffolk Council","E07000244",-57,NA
+"230","Bromsgrove District Council","E07000234",-58,NA
+"231","West Oxfordshire District Council","E07000181",-11,NA
+"232","Rother District Council","E07000064",-9,NA
+"233","Reading Borough Council","E06000038",-95,NA
+"234","Bolton Metropolitan Borough Council","E08000001",-54,NA
+"235","City of York Council","E06000014",-69,NA
+"236","Tendring District Council","E07000076",-70,NA
+"237","Ashford Borough Council","E07000105",-89,NA
+"238","Hull City Council","E06000010",-30,NA
+"239","North Norfolk District Council","E07000147",-40,NA
+"240","Great Yarmouth Borough Council","E07000145",-81,NA
+"241","Epsom and Ewell Borough Council","E07000208",-3,NA
+"242","Woking Borough Council","E07000217",-22,NA
