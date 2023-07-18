@@ -8,11 +8,11 @@ library(readxl)
 library(janitor)
 
 #working directory to save things 
-#setwd("D:\\Users\\emily.keenan\\Documents\\GitHub\\ctrebate_recon")
+setwd("D:\\Users\\emily.keenan\\Documents\\GitHub\\ctrebate_recon")
 
 #input locations in github
 assur_loc <- 'https://raw.githubusercontent.com/Em1lyK/ctrebate_recon/main/Input/council-tax-energy-rebate-assurance_20230711082613.csv?token=GHSAT0AAAAAACEIZD5TPGZDNMZUNYACKKUEZFPWZXA'
-recon_loc <- 'https://raw.githubusercontent.com/Em1lyK/ctrebate_recon/main/Input/council-tax-energy-rebate-reconciliation_20230712133607.csv?token=GHSAT0AAAAAACEIZD5S52FMFLTRH7V6JOKGZFPW26A'
+recon_loc <- 'https://raw.githubusercontent.com/Em1lyK/ctrebate_recon/main/Input/council-tax-energy-rebate-reconciliation_20230718093125.csv'
 
 incomplete <- c('saved')
 
@@ -95,10 +95,13 @@ inel_comp_el_inc <- full_join(ons_names, select(comparision_core_inel_df, organi
 inel_comp_el_inc <- full_join(inel_comp_el_inc, select(comparision_core_el_df, organisation_id, el_hh_change), by = 'organisation_id')  #attached the difference in the number of eligible households in nov and june 
 inel_comp_el_inc <- inel_comp_el_inc |>
     mutate(comparision = el_hh_change + inel_hh_change) |>                                                                              #add the diff in the number of eligible and ineligible hh to see if it is net zero (eligible hh has gone down by the number of ineligible hh gone up)
-    na.omit()                                                                                                                           #remove las who have not returned to make sorting easier 
+    na.omit() |>
+    arrange(desc(comparision))                                                                                                                           #remove las who have not returned to make sorting easier 
 inel_comp_el_inc <- left_join(inel_comp_el_inc, select(june_reason, organisation_id, no_hholds_core_v, no_hholds_core_value_ineligible_v), by = 'organisation_id')  #add the reasona for any change in numbers
+inel_comp_el_inc <- left_join(inel_comp_el_inc
 #write.csv(inel_comp_el_inc, "Output\\change_el_inel_comparision.csv")                                                                   #write comparision to a csv file
 view(inel_comp_el_inc)
+#write.csv(inel_comp_el_inc, 'Output/compare_changes_inel_el_core.csv')
 
 ####compare recovered payments####
 comparision_core_recov_df <- assur_nov |>
@@ -156,7 +159,7 @@ compare_changes_inel_el_dis <- compare_changes_inel_el_dis |>
 compare_changes_inel_el_dis <- compare_changes_inel_el_dis |>
     left_join(select(june_reason, organisation_id, no_hholds_discretionary_v , no_hholds_discretionary_ineligible_v), by = 'organisation_id')       #Attached the reasons for changes in the n.o. of el and inel hh
 view(compare_changes_inel_el_dis)
-
+#write.csv(compare_changes_inel_el_dis, "Output/compare_changes_inel_el_dis.csv")
 #################################################
 ########  check disisible by 150 ################
 #################################################
@@ -168,6 +171,7 @@ divisible_150_el <- recon_june |>
 remainder_150 <- divisible_150_el |>
     filter(!no_hholds_core_value %% 150 == 0)                                                                               #filter core payments column by value of payments that are not divisible by 150 
 view(remainder_150)
+#write.csv(remainder_150, file = "Output/remainder_150.csv")
 
 #ineligible
 divisible_150_inel <- recon_june |>
@@ -178,3 +182,8 @@ remainder_150 <- divisible_150_inel |>
     filter(!no_hholds_core_value_ineligible %% 150 == 0)
 view(remainder_150)
 
+
+
+#### compared with validations log ####
+validations <- read_excel('Input/230621 - validations logs_ek.xlsx', sheet = 'Reconciliation issues log')       #read in validations log
+view(validations)
