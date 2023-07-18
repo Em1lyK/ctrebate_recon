@@ -1,0 +1,302 @@
+"","organisation_name","organisation_id","inel_hh_change","el_hh_change","comparision","no_hholds_core_v","no_hholds_core_value_ineligible_v"
+"1","Cambridge City Council","E07000008",43,-49,-6,NA,NA
+"2","Cannock Chase District Council","E07000192",46,-79,-33,NA,NA
+"3","South Tyneside Council","E08000023",138,-236,-98,NA,NA
+"4","Fenland District Council","E07000010",22,-22,0,NA,NA
+"5","South Lakeland District Council","E07000031",6,-75,-69,NA,NA
+"6","Adur District Council","E07000223",0,0,0,NA,NA
+"7","Trafford Metropolitan Borough Council","E08000009",34,-34,0,NA,NA
+"8","Wokingham Borough Council","E06000041",8,-34,-26,NA,NA
+"9","Kirklees Council","E08000034",75,-75,0,NA,NA
+"10","Rotherham Metropolitan Borough Council","E08000018",20,-71,-51,NA,NA
+"11","Rossendale Borough Council","E07000125",9,-18,-9,NA,NA
+"12","Chelmsford City Council","E07000070",0,-43,-43,NA,NA
+"13","Redcar and Cleveland Borough Council","E06000003",0,-19,-19,NA,NA
+"14","Eastleigh Borough Council","E07000086",0,0,0,".",NA
+"15","Hastings Borough Council","E07000062",80,-74,6,NA,NA
+"16","Runnymede Borough Council","E07000212",13,-26,-13,NA,NA
+"17","Cornwall County UA","E06000052",68,-74,-6,NA,NA
+"18","Hackney London Borough","E09000012",-730,-4236,-4966,NA,"working through the potential paid in error cases we have identified cases that were correctly paid and as such they have been removed from the numbers in this report"
+"19","East Devon District Council","E07000040",21,-21,0,NA,NA
+"20","North Northamptonshire Council","E06000061",35,-35,0,NA,NA
+"21","Mid Suffolk District Council","E07000203",6,-6,0,NA,NA
+"22","Lichfield District Council","E07000194",25,-26,-1,NA,NA
+"23","Hartlepool Borough Council","E06000001",0,-10,-10,NA,NA
+"24","Barking and Dagenham London Borough","E09000002",29,-45,-16,NA,NA
+"25","Dorset Council (UA)","E06000059",156,-369,-213,NA,NA
+"26","Central Bedfordshire UA","E06000056",17,-17,0,NA,NA
+"27","Tamworth Borough Council","E07000199",0,0,0,NA,NA
+"28","Chesterfield Borough Council","E07000034",15,-6,9,NA,NA
+"29","Gravesham Borough Council","E07000109",8,-24,-16,NA,NA
+"30","Oxford City Council","E07000178",54,-55,-1,NA,NA
+"31","Lambeth London Borough","E09000022",40,-114,-74,NA,NA
+"32","Guildford Borough Council","E07000209",18,-41,-23,NA,NA
+"33","Gosport Borough Council","E07000088",6,-7,-1,NA,NA
+"34","Selby District Council","E07000169",0,0,0,NA,NA
+"35","Thurrock Council","E06000034",54,-16,38,NA,NA
+"36","Broxtowe Borough Council","E07000172",0,0,0,NA,NA
+"37","Ipswich Borough Council","E07000202",22,-22,0,NA,NA
+"38","Hart District Council","E07000089",39,-16,23,NA,NA
+"39","Waverley Borough Council","E07000216",5,-5,0,NA,NA
+"40","Bedford UA","E06000055",-14,15,1,"The return completed in December included 14 accounts that had been paid prior to the closure of the scheme, which were at the time marked as being ineligible. Further information has subsequently been provided to confirm their eligibility. Therefore, no further payments have been made.","As detailed in Q2, 14 accounts were previously marked as being ineligible, but further information has subsequently been provided to confirm their eligibility. As a result the starting balance has reduced from £20,250 to £18,150"
+"41","Eastbourne Borough Council","E07000061",23,0,23,NA,NA
+"42","Telford and Wrekin Council","E06000020",17,-23,-6,NA,NA
+"43","Lincoln City Council","E07000138",0,0,0,NA,NA
+"44","Greenwich London Borough","E09000011",170,-170,0,NA,NA
+"45","Braintree District Council","E07000067",0,-15,-15,NA,NA
+"46","South Oxfordshire District Council","E07000179",21,-81,-60,NA,NA
+"47","Boston Borough Council","E07000136",17,-56,-39,NA,NA
+"48","Gloucester City Council","E07000081",-26,-138,-164,NA,"Some were later found to be eligible and records corrected."
+"49","Isle of Wight Council","E06000046",-85,-577,-662,NA,"In our December submission cases that had been returned as the customer refused the payment were included in our ineligible payments. We have been conducting post payment checks and seeking return of funds and this work has since reduced to total number identified as not entitled since the last return."
+"50","Warwick District Council","E07000222",4,-4,0,NA,NA
+"51","Kingston upon Thames Royal Borough","E09000021",0,-39,-39,NA,NA
+"52","Brentwood Borough Council","E07000068",0,-17,-17,NA,NA
+"53","Dacorum Borough Council","E07000096",8,-8,0,NA,NA
+"54","Slough Borough Council","E06000039",0,0,0,NA,NA
+"55","Wolverhampton City Council","E08000031",85,-85,0,NA,NA
+"56","Shropshire County UA","E06000051",-123,0,-123,NA,"We had previously included, as ineligible payments, payments that had been made on accounts where a subsequent change to liability made the payment ineligible on that council tax account. However, the payment recipient was subsequently eligible for the energy rebate on a newly created council tax account. Rather than ask the taxpayer for the energy rebate to be repaid, and then pay it again to the same person on their new account, we took the decision to offset the payment against the new council tax account and we have noted the council tax account to reflect that. We have 184 accounts in these circumstances but as we have only actually made one payment to the taxpayer we have decided to not include these as ineligible on the return. Instead, they are eligible payments, made to the correct qualifying taxpayer, but on a different council tax account reference. For clarification these taxpayers have only received one energy rebate payment."
+"57","Maidstone Borough Council","E07000110",6.2,-83,-76.8,NA,NA
+"58","Amber Valley Borough Council","E07000032",1,-1,0,NA,NA
+"59","Oadby and Wigston Borough Council","E07000135",7,-10,-3,NA,NA
+"60","East Riding of Yorkshire Council","E06000011",229,-229,0,NA,NA
+"61","West Northamptonshire Council","E06000062",457,0,457,NA,NA
+"62","South Holland District Council","E07000140",11,-33,-22,NA,NA
+"63","Windsor and Maidenhead Royal Borough Council","E06000040",-101,0,-101,NA,"The above refers to Q4only as the request states not to include Q3."
+"64","Stroud District Council","E07000082",5,-20,-15,NA,NA
+"65","Redbridge London Borough","E09000026",78,-78,0,NA,NA
+"66","Rushcliffe Borough Council","E07000176",0,0,0,NA,NA
+"67","Stockton-on-Tees Borough Council","E06000004",6.66666666666667,-16,-9.33333333333333,NA,NA
+"68","Harrogate Borough Council","E07000165",24,-32,-8,NA,NA
+"69","Gedling Borough Council","E07000173",36,-14,22,NA,NA
+"70","Sefton Metropolitan Borough Council","E08000014",0,-111,-111,NA,NA
+"71","Cheltenham Borough Council","E07000078",49,-100,-51,NA,NA
+"72","Leicester City Council","E06000016",0,0,0,NA,NA
+"73","Dover District Council","E07000108",0,0,0,NA,NA
+"74","Halton Borough Council","E06000006",18,-18,0,NA,NA
+"75","North Tyneside Council","E08000022",17,-53,-36,NA,NA
+"76","Broadland District Council","E07000144",0,0,0,NA,NA
+"77","Camden London Borough","E09000007",97,-97,0,NA,NA
+"78","Bassetlaw District Council","E07000171",98,-111,-13,NA,NA
+"79","Dartford Borough Council","E07000107",-459,-80,-539,NA,"The cases initially identified in December were subsequently reviewed in detail. Some cases were then proved to be eligible and others were found to be where payments had been prevented and should therefore not have been included."
+"80","Luton Borough Council","E06000032",174,-174,0,NA,NA
+"81","Solihull Metropolitan Borough Council","E08000029",23,-23,0,NA,NA
+"82","Forest of Dean District Council","E07000080",0,53,53,"The figure reported in December was incorrect and didn't include all payments made at that time.",NA
+"83","Sheffield City Council","E08000019",57,-137,-80,NA,NA
+"84","Sevenoaks District Council","E07000111",-17,-61,-78,NA,"The cases initially identified in December were subsequently reviewed in detail. Some cases were then proved to be eligible."
+"85","North East Lincolnshire Council","E06000012",60,-199,-139,NA,NA
+"86","Southend-on-Sea City Council","E06000033",34,-157,-123,NA,NA
+"87","High Peak Borough Council","E07000037",4,-7,-3,NA,NA
+"88","Erewash Borough Council","E07000036",37,-1209,-1172,NA,NA
+"89","Wychavon District Council","E07000238",0,0,0,NA,NA
+"90","Torbay Council","E06000027",257,-21,236,NA,NA
+"91","Chorley Borough Council","E07000118",5,-13,-8,NA,NA
+"92","Dudley Metropolitan Borough Council","E08000027",42,-62,-20,NA,NA
+"93","East Lindsey District Council","E07000137",25,-81,-56,NA,NA
+"94","Torridge District Council","E07000046",0,0,0,NA,NA
+"95","Cherwell District Council","E07000177",0,-38,-38,NA,NA
+"96","Gateshead Metropolitan Borough Council","E08000037",51,-100,-49,NA,NA
+"97","Haringey London Borough","E09000014",11,-59,-48,NA,NA
+"98","Isles of Scilly Council","E06000053",0,0,0,NA,NA
+"99","Carlisle City Council","E07000028",16,0,16,NA,NA
+"100","Folkestone and Hythe District Council","E07000112",3,0,3,NA,NA
+"101","Preston City Council","E07000123",253,-270,-17,NA,NA
+"102","Mid Devon District Council","E07000042",0,81,81,"system adjustments between our council tax software and the reporting system used",NA
+"103","Somerset West and Taunton Council","E07000246",-5,-83,-88,NA,"The above figure excludes any cases of ineligibility that were detected and prevented BEFORE payments were made. Earlier submissions might not have excluded all cases where payments did not reach the household."
+"104","North Lincolnshire Council","E06000013",71,-227,-156,NA,NA
+"105","Test Valley Borough Council","E07000093",10,-10,0,NA,NA
+"106","Horsham District Council","E07000227",22,-31,-9,NA,NA
+"107","Lewisham London Borough","E09000023",633,-633,0,NA,NA
+"108","Tower Hamlets London Borough","E09000030",109,-109,0,NA,NA
+"109","Spelthorne Borough Council","E07000213",7,-115,-108,NA,NA
+"110","Redditch Borough Council","E07000236",118,-52,66,NA,NA
+"111","Welwyn Hatfield Borough Council","E07000241",11,-25,-14,NA,NA
+"112","Bolsover District Council","E07000033",6,-13,-7,NA,NA
+"113","St Albans City and District Council","E07000240",47,-67,-20,NA,NA
+"114","Stafford Borough Council","E07000197",63,-111,-48,NA,NA
+"115","Stockport Metropolitan Borough Council","E08000007",27,-27,0,NA,NA
+"116","Huntingdonshire District Council","E07000011",11,-92,-81,NA,NA
+"117","Havant Borough Council","E07000090",70,-41,29,NA,NA
+"118","Epping Forest District Council","E07000072",71,-21,50,NA,NA
+"119","Blackburn with Darwen Borough Council","E06000008",0,0,0,NA,NA
+"120","Sedgemoor District Council","E07000188",-3,-68,-71,NA,"3 payments were determined as eligible so the invoices were credit noted"
+"121","Worcester City Council","E07000237",0,0,0,NA,NA
+"122","Walsall Metropolitan Borough Council","E08000030",0,0,0,NA,NA
+"123","Eden District Council","E07000030",4,-10,-6,NA,NA
+"124","West Lancashire Borough Council","E07000127",74,-33,41,NA,NA
+"125","Mole Valley District Council","E07000210",0,0,0,NA,NA
+"126","Rochford District Council","E07000075",0,0,0,NA,NA
+"127","East Cambridgeshire District Council","E07000009",10,-10,0,NA,NA
+"128","West Suffolk Council","E07000245",47,-47,0,NA,NA
+"129","Cotswold District Council","E07000079",-9,-20,-29,NA,"The previous return total (15) included 2 duplicates and 7 which we believed were ineligible but on later investigation were seen to be eligible."
+"130","Hounslow London Borough","E09000018",129,-135,-6,NA,"Liability changing and deceased."
+"131","Arun District Council","E07000224",8,-8,0,NA,NA
+"132","Copeland Borough Council","E07000029",16,0,16,NA,NA
+"133","Salford City Council","E08000006",-2,-681,-683,NA,"Credit notes were raised to cancel invoices for ineligible payments that were subsequently found to be eligible."
+"134","Mid Sussex District Council","E07000228",0,-44,-44,NA,NA
+"135","Ealing London Borough","E09000009",-19,-20,-39,NA,"Following further investigation it was identified that a number of payments were made correctly"
+"136","Bristol City Council","E06000023",759,-465,294,NA,NA
+"137","Tandridge District Council","E07000215",2,-28,-26,NA,NA
+"138","Darlington Borough Council","E06000005",9,-26,-17,NA,NA
+"139","Nuneaton and Bedworth Borough Council","E07000219",6,-12,-6,NA,NA
+"140","North Warwickshire Borough Council","E07000218",93,-5,88,NA,NA
+"141","Tewkesbury Borough Council","E07000083",18,-18,0,NA,NA
+"142","Hillingdon London Borough","E09000017",8,-39,-31,NA,"Reporting in December include allpay payment vouchers which hadn't actually been received/cashed by the recipients"
+"143","Scarborough Borough Council","E07000168",4,-4,0,NA,NA
+"144","Castle Point Borough Council","E07000069",0,0,0,NA,NA
+"145","Sutton London Borough","E09000029",32,-12,20,NA,NA
+"146","City of Bradford Metropolitan District Council","E08000032",31,0,31,NA,NA
+"147","Babergh District Council","E07000200",10,-10,0,NA,NA
+"148","Thanet District Council","E07000114",0,0,0,NA,NA
+"149","Charnwood Borough Council","E07000130",513,-75,438,NA,NA
+"150","Merton London Borough","E09000024",15,-15,0,NA,NA
+"151","Vale of White Horse District Council","E07000180",61,-34,27,NA,NA
+"152","Worthing Borough Council","E07000229",0,0,0,NA,NA
+"153","Rochdale Metropolitan Borough Council","E08000005",46,-50,-4,NA,NA
+"154","Mansfield District Council","E07000174",11.26,-23,-11.74,NA,NA
+"155","Bromley London Borough","E09000006",0,-26,-26,NA,NA
+"156","Knowsley Metropolitan Borough Council","E08000011",9,-34,-25,NA,NA
+"157","Wigan Metropolitan Borough Council","E08000010",279,-279,0,NA,NA
+"158","Reigate and Banstead Borough Council","E07000211",0,0,0,NA,NA
+"159","Bury Metropolitan Borough Council","E08000002",0,0,0,NA,NA
+"160","South Ribble Borough Council","E07000126",29,-30,-1,NA,NA
+"161","Winchester City Council","E07000094",44,-15,29,NA,"kajfjkashd;fu"
+"162","Warrington Borough Council","E06000007",12,-28,-16,NA,NA
+"163","Tonbridge and Malling Borough Council","E07000115",0,-5,-5,NA,NA
+"164","Ashfield District Council","E07000170",4,-8,-4,NA,NA
+"165","South Derbyshire District Council","E07000039",-31,-86,-117,NA,"the number reported on last form was numbers identified as ineligible where as this form specifically states in Q2 above to not include ineligible accounts. More clarification received."
+"166","Kensington and Chelsea Royal Borough","E09000020",103,-105,-2,NA,NA
+"167","Newcastle City Council","E08000021",34,-34,0,NA,NA
+"168","West Devon Borough Council","E07000047",25,-22,3,NA,NA
+"169","Enfield London Borough","E09000010",67,-83,-16,NA,NA
+"170","South Cambridgeshire District Council","E07000012",3,-4,-1,NA,NA
+"171","Rushmoor Borough Council","E07000092",19,-22,-3,NA,NA
+"172","Crawley Borough Council","E07000226",6,-6,0,NA,NA
+"173","Lancaster City Council","E07000121",93,-142,-49,NA,NA
+"174","Allerdale Borough Council","E07000026",8,-8,0,NA,NA
+"175","Liverpool City Council","E08000012",702,-1446,-744,NA,NA
+"176","North Kesteven District Council","E07000139",9,-9,0,NA,NA
+"177","Barnet London Borough","E09000003",40,-44,-4,NA,NA
+"178","North Devon District Council","E07000043",18,-38,-20,NA,NA
+"179","Swindon Borough Council","E06000030",18,-18,0,NA,NA
+"180","Derbyshire Dales District Council","E07000035",8,-4,4,NA,NA
+"181","Plymouth City Council","E06000026",81,-81,0,NA,NA
+"182","Stratford-on-Avon District Council","E07000221",0,0,0,NA,NA
+"183","Staffordshire Moorlands District Council","E07000198",0,-7,-7,NA,NA
+"184","Hammersmith and Fulham London Borough","E09000013",129,-129,0,NA,NA
+"185","Northumberland County UA","E06000057",21,-127,-106,NA,"Some subsequently found to have been eligible."
+"186","Ryedale District Council","E07000167",0,0,0,NA,NA
+"187","Oldham Metropolitan Borough Council","E08000004",83,-83,0,NA,NA
+"188","North Somerset Council","E06000024",20,-11,9,NA,NA
+"189","Broxbourne Borough Council","E07000095",10,-56,-46,NA,NA
+"190","Cheshire East UA","E06000049",37,-149,-112,NA,NA
+"191","Sandwell Metropolitan Borough Council","E08000028",21,-148,-127,NA,NA
+"192","Cheshire West and Chester UA","E06000050",27,-27,0,NA,NA
+"193","Melton Borough Council","E07000133",4,-4,0,NA,NA
+"194","Barrow-in-Furness Borough Council","E07000027",17,-20,-3,NA,NA
+"195","Brent London Borough","E09000005",0,-999,-999,NA,"Further investigation of the individual households determined that many of those previously identified as ineligible were eligible households."
+"196","Waltham Forest London Borough","E09000031",142,-259,-117,NA,NA
+"197","Norwich City Council","E07000148",0,-114,-114,NA,NA
+"198","King's Lynn and West Norfolk Borough Council","E07000146",10,-79,-69,NA,NA
+"199","South Somerset District Council","E07000189",16,-13,3,NA,NA
+"200","Wakefield Metropolitan District Council","E08000036",55,-37,18,NA,NA
+"201","South Staffordshire Council","E07000196",2,0,2,NA,NA
+"202","Mendip District Council","E07000187",69,-15,54,NA,NA
+"203","South Hams District Council","E07000044",42,-40,2,NA,NA
+"204","Wandsworth London Borough","E09000032",0,0,0,NA,NA
+"205","Burnley Borough Council","E07000117",43,-55,-12,NA,NA
+"206","Richmondshire District Council","E07000166",0,0,0,NA,NA
+"207","Harrow London Borough","E09000015",91,-92,-1,NA,NA
+"208","Nottingham City Council","E06000018",0,0,0,NA,NA
+"209","Teignbridge District Council","E07000045",41,-41,0,NA,NA
+"210","Southampton City Council","E06000045",33,-16,17,NA,NA
+"211","Newark and Sherwood District Council","E07000175",-1.81333333333333,-7,-8.81333333333333,NA,"Previous figure incorrectly included some cases that were detected and prevented before payments were made"
+"212","Surrey Heath Borough Council","E07000214",0,0,0,NA,NA
+"213","Hambleton District Council","E07000164",5,-13,-8,NA,NA
+"214","Elmbridge Borough Council","E07000207",10,-46,-36,NA,NA
+"215","Colchester Borough Council","E07000071",38,-80,-42,NA,NA
+"216","Chichester District Council","E07000225",4,-36,-32,NA,NA
+"217","West Berkshire Council","E06000037",519,-20,499,NA,NA
+"218","Tameside Metropolitan Borough Council","E08000008",38,-47,-9,NA,NA
+"219","Portsmouth City Council","E06000044",453,22,475,"Properties linked to 22 properties had previously been determined as ineligible but on further review remained eligible. These cases were paid before 30 November 22 and were not subject to recovery and then a second payment.",NA
+"220","Westminster City Council","E09000033",46,-401,-355,NA,NA
+"221","Swale Borough Council","E07000113",0,-176,-176,NA,NA
+"222","Lewes District Council","E07000063",29,-1836,-1807,NA,NA
+"223","Middlesbrough Council","E06000002",627,-291,336,NA,NA
+"224","Doncaster Metropolitan Borough Council","E08000017",364,-479,-115,NA,NA
+"225","North East Derbyshire District Council","E07000038",8,-25,-17,NA,NA
+"226","Birmingham City Council","E08000025",372,-372,0,NA,NA
+"227","Wyre Forest District Council","E07000239",0,0,0,NA,NA
+"228","Hinckley and Bosworth Borough Council","E07000132",0,-28,-28,NA,NA
+"229","Wyre Borough Council","E07000128",194,-279,-85,NA,NA
+"230","Rugby Borough Council","E07000220",0,0,0,NA,NA
+"231","Stoke-on-Trent City Council","E06000021",135,-267,-132,NA,NA
+"232","Islington London Borough","E09000019",-2275,0,-2275,"www","The figures which were, £341,250.00 reported in Dec22 ,was an error. Upon reconciliation we realised these payments were not paid."
+"233","Maldon District Council","E07000074",2,0,2,NA,NA
+"234","New Forest District Council","E07000091",20,-3,17,NA,NA
+"235","East Hertfordshire District Council","E07000242",38,-44,-6,NA,NA
+"236","Malvern Hills District Council","E07000235",0,0,0,NA,NA
+"237","Fareham Borough Council","E07000087",3,-3,0,NA,NA
+"238","Pendle Borough Council","E07000122",34,-42,-8,NA,NA
+"239","Fylde Borough Council","E07000119",53,-53,0,NA,NA
+"240","Harborough District Council","E07000131",0,-742,-742,NA,NA
+"241","Derby City Council","E06000015",64,-64,0,NA,NA
+"242","Wirral Borough Council","E08000015",79,-154,-75,NA,NA
+"243","South Norfolk Council","E07000149",0,0,0,NA,NA
+"244","Breckland District Council","E07000143",29,-29,0,NA,NA
+"245","Newcastle-under-Lyme Borough Council","E07000195",0,439,439,"Correction to number of payments made at 30 November, incorrectly reported in December",NA
+"246","Blackpool Borough Council","E06000009",122,-122,0,NA,NA
+"247","Bournemouth, Christchurch and Poole (UA)","E06000058",210,-197,13,NA,NA
+"248","Manchester City Council","E08000003",186.666666666667,-186,0.666666666666657,NA,NA
+"249","Wiltshire County UA","E06000054",3,-32,-29,NA,NA
+"250","West Lindsey District Council","E07000142",2,-77,-75,NA,NA
+"251","Herefordshire Council","E06000019",9,-67,-58,NA,NA
+"252","Wealden District Council","E07000065",1,-72,-71,NA,NA
+"253","Bexley London Borough","E09000004",0,0,0,NA,NA
+"254","East Hampshire District Council","E07000085",0,-29,-29,NA,NA
+"255","Brighton and Hove City Council","E06000043",46,-394,-348,NA,NA
+"256","Rutland County Council","E06000017",0,0,0,NA,NA
+"257","Basingstoke and Deane Borough Council","E07000084",7,-7,0,NA,NA
+"258","Leeds City Council","E08000035",174,-174,0,NA,NA
+"259","Harlow District Council","E07000073",11,-11,0,NA,NA
+"260","Exeter City Council","E07000041",27,0,27,"The December data return was taken from the claim data we collated and was inaccurate, these figures have now been taken from our financial output and are the correct figures, I confirm that no payments were made after 30/11/2022",NA
+"261","Stevenage Borough Council","E07000243",37,-40,-3,NA,NA
+"262","Hyndburn Borough Council","E07000120",0,0,0,NA,NA
+"263","London Borough of Richmond upon Thames","E09000027",0,0,0,NA,NA
+"264","Southwark London Borough","E09000028",0,0,0,NA,NA
+"265","Medway Council","E06000035",48,0,48,NA,NA
+"266","Peterborough City Council","E06000031",23,-32,-9,NA,NA
+"267","Milton Keynes Council","E06000042",141,-192,-51,NA,NA
+"268","Sunderland City Council","E08000024",65,-65,0,NA,NA
+"269","Hertsmere Borough Council","E07000098",40,-4,36,NA,NA
+"270","St Helens Council","E08000013",73,-29,44,NA,NA
+"271","Newham London Borough","E09000025",214,-214,0,NA,NA
+"272","Tunbridge Wells Borough Council","E07000116",27,-27,0,NA,NA
+"273","Havering London Borough","E09000016",0,0,0,NA,NA
+"274","Blaby District Council","E07000129",0,0,0,NA,NA
+"275","North West Leicestershire District Council","E07000134",0,-26,-26,NA,NA
+"276","Uttlesford District Council","E07000077",2.83333333333333,-25,-22.1666666666667,NA,NA
+"277","Barnsley Metropolitan Borough Council","E08000016",0,-162,-162,NA,NA
+"278","Coventry City Council","E08000026",108,-297,-189,NA,NA
+"279","Basildon Borough Council","E07000066",-1,-55,-56,NA,"We found 1 account where there was not overpayment for energy rebate and have amended the amount"
+"280","South Gloucestershire Council","E06000025",0,0,0,NA,NA
+"281","Ribble Valley Borough Council","E07000124",2,-2,0,NA,NA
+"282","Buckinghamshire UA","E06000060",17,66,83,"Reconciliation exercise now including post office voucher payments that was missed in December submission",NA
+"283","Durham County UA","E06000047",-18,-458,-476,NA,"In some cases, where the Energy Rebate payment had been applied to the Council Tax account and due to a retrospective change in liability there was no entitlement, we were able to remove the payment (as no bill had been issued) so a clawback was not required."
+"284","East Suffolk Council","E07000244",57,-57,0,NA,NA
+"285","Bromsgrove District Council","E07000234",111,-58,53,NA,NA
+"286","West Oxfordshire District Council","E07000181",-10,-11,-21,NA,"The number has reduced since the last return as we could reverse the payment that had been made to the Council Tax account and therefore did not need to recover through an invoice"
+"287","Rother District Council","E07000064",10,-9,1,NA,NA
+"288","Reading Borough Council","E06000038",73,-95,-22,NA,NA
+"289","Bolton Metropolitan Borough Council","E08000001",35,-54,-19,NA,NA
+"290","City of York Council","E06000014",69,-69,0,NA,NA
+"291","Tendring District Council","E07000076",408,-70,338,NA,NA
+"292","Ashford Borough Council","E07000105",5,-89,-84,NA,NA
+"293","Hull City Council","E06000010",30,-30,0,NA,NA
+"294","City of London","E09000001",0,0,0,NA,NA
+"295","North Norfolk District Council","E07000147",8,-40,-32,NA,NA
+"296","Craven District Council","E07000163",0,0,0,NA,NA
+"297","Croydon London Borough","E09000008",0,0,0,NA,NA
+"298","Great Yarmouth Borough Council","E07000145",-22,-81,-103,NA,"These differences were queries at the time that we thought were ineligible but in fact eligible."
+"299","Epsom and Ewell Borough Council","E07000208",-959.666666666667,-3,-962.666666666667,NA,"There was a typo on my original return. In the December return it should have been £16,350 not £161,350 which was submitted"
+"300","Bath and North East Somerset Council","E06000022",321,0,321,NA,NA
+"301","Woking Borough Council","E07000217",0,-22,-22,NA,NA
