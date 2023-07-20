@@ -98,10 +98,15 @@ inel_comp_el_inc <- inel_comp_el_inc |>
     na.omit() |>
     arrange(desc(comparision))                                                                                                                           #remove las who have not returned to make sorting easier 
 inel_comp_el_inc <- left_join(inel_comp_el_inc, select(june_reason, organisation_id, no_hholds_core_v, no_hholds_core_value_ineligible_v), by = 'organisation_id')  #add the reasona for any change in numbers
-inel_comp_el_inc <- left_join(inel_comp_el_inc
+inel_comp_el_inc <- left_join(inel_comp_el_inc, select(validations, organisation_id, resolved_unresolved), by = 'organisation_id')
+inel_comp_el_inc <- inel_comp_el_inc |>
+    relocate(resolved_unresolved, .after = 'comparision') |>
+    filter(resolved_unresolved == 0)
 #write.csv(inel_comp_el_inc, "Output\\change_el_inel_comparision.csv")                                                                   #write comparision to a csv file
 view(inel_comp_el_inc)
 #write.csv(inel_comp_el_inc, 'Output/compare_changes_inel_el_core.csv')
+write.csv(inel_comp_el_inc, 'D:\\Users\\emily.keenan\\OneDrive - MHCLG\\Desktop\\DAP Transfer\\compare_changes_inel_el_core.csv')
+
 
 ####compare recovered payments####
 comparision_core_recov_df <- assur_nov |>
@@ -154,11 +159,17 @@ compare_changes_inel_el_dis <- change_ineligible_dis |>
     select(organisation_name:organisation_id, change_disc_inel_hh)                                                          #select change in the number of inel hh column
 compare_changes_inel_el_dis <- compare_changes_inel_el_dis |>
     left_join(select(change_eligible_dis, organisation_id, change_disc_el_hh), by = 'organisation_id') |>                   #select change in the number of el hh column
-    mutate(net_change_hh = change_disc_inel_hh + change_disc_el_hh)                                                         #add the to columns to see the net change in the number of hh paid 
+    mutate(net_change_hh = change_disc_inel_hh + change_disc_el_hh) |>
+    arrange(desc(net_change_hh))                                                         #add the to columns to see the net change in the number of hh paid 
 
 compare_changes_inel_el_dis <- compare_changes_inel_el_dis |>
-    left_join(select(june_reason, organisation_id, no_hholds_discretionary_v , no_hholds_discretionary_ineligible_v), by = 'organisation_id')       #Attached the reasons for changes in the n.o. of el and inel hh
+    left_join(select(june_reason, organisation_id, no_hholds_discretionary_v , no_hholds_discretionary_ineligible_v), by = 'organisation_id') |>      #Attached the reasons for changes in the n.o. of el and inel hh
+    left_join(select(validations, organisation_id, resolved_unresolved), by = 'organisation_id') |>
+    relocate(resolved_unresolved, .after = 'net_change_hh')
+    #filter(resolved_unresolved ==0)
 view(compare_changes_inel_el_dis)
+write.csv(compare_changes_inel_el_dis, 'D:\\Users\\emily.keenan\\OneDrive - MHCLG\\Desktop\\DAP Transfer\\compare_changes_inel_el_dis.csv')
+
 #write.csv(compare_changes_inel_el_dis, "Output/compare_changes_inel_el_dis.csv")
 #################################################
 ########  check disisible by 150 ################
@@ -168,9 +179,9 @@ divisible_150_el <- recon_june |>
     select(organisation_name:organisation_id, no_hholds_core_value) |>                                                      #Select value of core payments in June
     mutate(divide_150_el = no_hholds_core_value/150)                                                                        #divide the value of core payments by 150
 
-remainder_150 <- divisible_150_el |>
+remainder_el_150 <- divisible_150_el |>
     filter(!no_hholds_core_value %% 150 == 0)                                                                               #filter core payments column by value of payments that are not divisible by 150 
-view(remainder_150)
+view(remainder_el_150)
 #write.csv(remainder_150, file = "Output/remainder_150.csv")
 
 #ineligible
@@ -178,9 +189,9 @@ divisible_150_inel <- recon_june |>
     select(organisation_name:organisation_id, no_hholds_core_value_ineligible) |>
     mutate(divide_150_inel = no_hholds_core_value_ineligible/150)
 
-remainder_150 <- divisible_150_inel |>
+remainder_inel_150 <- divisible_150_inel |>
     filter(!no_hholds_core_value_ineligible %% 150 == 0)
-view(remainder_150)
+view(remainder_inel_150)
 
 
 
